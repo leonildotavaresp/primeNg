@@ -1,0 +1,27 @@
+.content {
+    display: grid;
+    grid-template-columns: 1fr 100%;
+    // gap: 3rem;
+    width: 100%;
+
+    overflow-x: hidden;
+}
+
+::ng-deep .p-menubar {
+    box-sizing: border-box;
+    flex-basis: 100%;
+    flex:1;
+    width: 100%;
+    border-radius: 0;
+
+    .p-menuitem {
+        // background-color: red;
+    }
+
+    .p-menuitem-text {
+        // background-color: red;
+    }
+}
+
+// ::ng-depp .menuitem {
+// }s

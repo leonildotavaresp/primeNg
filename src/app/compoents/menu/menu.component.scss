@@ -1,0 +1,36 @@
+::ng-deep {
+    .menu-custom .p-menu {
+    // background-color: green;
+    height: 100vh;
+    width: 250px;
+    border-radius: 0;
+
+    .p-menuitem *{
+        border-radius: 8px;
+        margin: 5px;
+        // background-color: red;
+           &:hover *{
+            background-color: black;
+            color: white;
+        }
+    }
+    .p-menu-list{
+        // background-color: red;
+        // color: red;
+    }
+
+    .p-menuitem-text {
+        // background-color: red;
+    }
+
+    .p-submenu-header {
+        // background-color: red;
+        // color: red;
+        text-align: center;
+    }
+
+
+
+
+}
+}
